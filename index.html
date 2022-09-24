@@ -2,14 +2,43 @@
 <html>
     <head>
         <title>ASCC Sound Dataset</title>
+        <style>
+            p.normal {
+            font-style: normal;
+            }
+
+            p.italic {
+            font-style: italic;
+            }
+
+            p.oblique {
+            font-style: oblique;
+            }
+            </style>
     </head>
 
     <body>
         <center>
-            <h1>This is a Heading</h1>
+            <h1>The ASCC Home Environment Sound Dataset</h1>
         </center>
-        <p>This is a paragraph.</p>
+        <h2>1. Introduction</h2>
+        <p>This table shows the categories and the amount of audios of each category in the dataset samples.</p>
+
+        <p>The audios are collected from Google audioset [1], CHIME-HOME [2], SINS [3], Eating Sound Collection [4], Freesound [5].</p>
+
+        <p>The original audios from different sources have different sample rates, durations and channels. We unified them into 32kHz, 5 seconds, and mono. For some sources, the durations of those audios are smaller than 5 seconds. Their duration is kept in the original shape. Those audios whose duration is larger than 5 seconds are cut into 5-second segments.</p>
+        
+        <p>After segmenting the audios, we manually verified the audios and removed the audios which have no sound event or unnoticeable sound event.</p>
+
+
+
+
+        <h2>Reference</h2>
+        <p class="italic">[1]. J. F. Gemmeke et al., "Audio Set: An ontology and human-labeled dataset for audio events," 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2017, pp. 776-780, doi: 10.1109/ICASSP.2017.7952261.</p>
+        <p class="italic">[2]. P. Foster, S. Sigtia, S. Krstulovic, J. Barker and M. D. Plumbley, "Chime-home: A dataset for sound source recognition in a domestic environment," 2015 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2015, pp. 1-5, doi: 10.1109/WASPAA.2015.7336899.</p>
+        <p class="italic">[3]. G. Dekkers, S. Lauwereins, B. Thoen, M. W. Adhana, H. Brouckxon, T. van Waterschoot, B. Vanrumste, M. Verhelst, and P. Karsmakers, “The SINS database for detection of daily activities in a home environment using an acoustic sensor network,” in Proc. DCASE Workshop, November 2017, pp. 32–36.</p>
+        <p class="italic">[4]. https://www.kaggle.com/datasets/mashijie/eating-sound-collection</p>
+        <p class="italic">[5]. https://freesound.org/</p>
+
     </body>
 </html>
-
-
