@@ -3,6 +3,9 @@
     <head>
         <title>ASCC Sound Dataset</title>
         <style>
+            table, th, td {
+            border:1px solid black;
+            }
             body {
                 margin: 35px;
             }
@@ -26,15 +29,138 @@
             <h1>The ASCC Home Environment Sound Dataset</h1>
         </center>
         <h2>1. Introduction</h2>
-        <p>This table shows the categories and the amount of audios of each category in the dataset samples.</p>
+        <p>This website introduces the ASCC Home Environment Sound Dataset. We totally collected 36 categories, 31,423 audios, 138,522 seconds. Some audios are collected from Google audioset [1], CHIME-HOME [2], SINS [3] and Eating Sound Collection [4], where the home environment-related audios are selected and processed. We also used web crawler technique to search and download realted audios uploaded by users from all over the wrold from Freesound [5]. Besides, we used a cell phone to record different audios and played them in our smart home environment[6]. The audios were played in different rooms and a laptop was used to record the audios played audio at different distance.</p>
 
-        <p>The audios are collected from Google audioset [1], CHIME-HOME [2], SINS [3], Eating Sound Collection [4], Freesound [5].</p>
-
-        <p>The original audios from different sources have different sample rates, durations and channels. We unified them into 32kHz, 5 seconds, and mono. For some sources, the durations of those audios are smaller than 5 seconds. Their duration is kept in the original shape. Those audios whose duration is larger than 5 seconds are cut into 5-second segments.</p>
-        
-        <p>After segmenting the audios, we manually verified the audios and removed the audios which have no sound event or unnoticeable sound event.</p>
+        <p>The original audios from different sources have different sample rates, durations and channels. We unified them into both 32kHz and 8kHz, 5 seconds, and mono. The sampling rate of 8kHz has less data, which is eaiser for a wearable device to process. For some sources, the durations of those audios are smaller than 5 seconds. Their duration is kept in the original shape. Those audios whose duration is larger than 5 seconds are cut into 5-second segments. After segmenting the audios, we manually verified the audios and removed the audios which have no sound event or unnoticeable sound event.</p>
 
         <h2>2. Audios</h2>
+        <p>The dataset is available on <a href= "https://drive.google.com/drive/folders/14Yp3aO9nAzJ6LraDJ12hOZIGuznmZrwT?usp=sharing, https://drive.google.com/drive/folders/1sUw0slNa_Y4RQ7qM-Cro6Xy0C_e42hag?usp=sharing" >Google Drive</a>. The following table shows the categories and the amount of audios of each category in the dataset. Clike the category name to navigate to the corresponding audios.</p>
+
+
+
+
+
+        <center>
+            <style type="text/css">
+                .tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
+                .tg td{background-color:#fff;border-bottom-width:1px;border-color:#aaa;border-style:solid;border-top-width:1px;
+                  border-width:0px;color:#333;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+                  word-break:normal;}
+                .tg th{background-color:#f38630;border-bottom-width:1px;border-color:#aaa;border-style:solid;border-top-width:1px;
+                  border-width:0px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+                  padding:10px 5px;word-break:normal;}
+                .tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+                .tg .tg-0lax{text-align:left;vertical-align:top}
+                </style>
+                <table class="tg">
+                <thead>
+                  <tr>
+                    <th class="tg-1wig">Category</th>
+                    <th class="tg-1wig">Amount</th>
+                    <th class="tg-1wig">Category</th>
+                    <th class="tg-1wig">Amount</th>
+                    <th class="tg-1wig">Category</th>
+                    <th class="tg-1wig">Amount</th>
+                    <th class="tg-1wig">Category</th>
+                    <th class="tg-1wig">Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-0lax"> <a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Blender </a></td>
+                    <td class="tg-0lax">251</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Breath </a></td>
+                    <td class="tg-0lax">678</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Burp </a></td>
+                    <td class="tg-0lax">234</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Clear throat </a></td>
+                    <td class="tg-0lax">200</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Cloth dryer </a></td>
+                    <td class="tg-0lax">1948</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Cough </a></td>
+                    <td class="tg-0lax">5056</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Cry </a></td>
+                    <td class="tg-0lax">55</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Cut food </a></td>
+                    <td class="tg-0lax">243</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Cut nails </a></td>
+                    <td class="tg-0lax">88</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Door open&amp;close </a></td>
+                    <td class="tg-0lax">207</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Drink </a></td>
+                    <td class="tg-0lax">390</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Eat </a></td>
+                    <td class="tg-0lax">1999</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Fan </a></td>
+                    <td class="tg-0lax">145</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Flush toilet </a></td>
+                    <td class="tg-0lax">1950</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Fry food </a></td>
+                    <td class="tg-0lax">926</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Hair dryer </a></td>
+                    <td class="tg-0lax">629</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Have shower </a></td>
+                    <td class="tg-0lax">210</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Hiccup </a></td>
+                    <td class="tg-0lax">178</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Human speech </a></td>
+                    <td class="tg-0lax">637</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Keyboard typing </a></td>
+                    <td class="tg-0lax">1875</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Laugh </a></td>
+                    <td class="tg-0lax">101</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Microwave </a></td>
+                    <td class="tg-0lax">300</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Pour water into glass </a></td>
+                    <td class="tg-0lax">950</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Quiet </a></td>
+                    <td class="tg-0lax">250</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Refrigerator </a></td>
+                    <td class="tg-0lax">396</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Shave </a></td>
+                    <td class="tg-0lax">716</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Sneeze </a></td>
+                    <td class="tg-0lax">237</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Snore </a></td>
+                    <td class="tg-0lax">3345</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Brush tooth </a></td>
+                    <td class="tg-0lax">658</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Watch TV </a></td>
+                    <td class="tg-0lax">563</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Use scissors </a></td>
+                    <td class="tg-0lax">862</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Vaccum cleaner </a></td>
+                    <td class="tg-0lax">482</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Wash dishes </a></td>
+                    <td class="tg-0lax">1104</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Wash hand </a></td>
+                    <td class="tg-0lax">681</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Washing machine </a></td>
+                    <td class="tg-0lax">2737</td>
+                    <td class="tg-0lax"><a href="https://drive.google.com/drive/folders/1TQwkh4wxkfnu92KqWZFh2qUHTExyFQH-?usp=sharing">  Yawn </a></td>
+                    <td class="tg-0lax">150</td>
+                  </tr>
+                </tbody>
+                </table>
+        </center>
+
+                
 
 
         <h2>Reference</h2>
@@ -43,6 +169,7 @@
         <p class="italic">[3]. G. Dekkers, S. Lauwereins, B. Thoen, M. W. Adhana, H. Brouckxon, T. van Waterschoot, B. Vanrumste, M. Verhelst, and P. Karsmakers, “The SINS database for detection of daily activities in a home environment using an acoustic sensor network,” in Proc. DCASE Workshop, November 2017, pp. 32–36.</p>
         <p class="italic">[4]. https://www.kaggle.com/datasets/mashijie/eating-sound-collection</p>
         <p class="italic">[5]. https://freesound.org/</p>
+        <p class="italic">[6]. H. M. Do, K. C. Welch and W. Sheng, "SoHAM: A Sound-Based Human Activity Monitoring Framework for Home Service Robots," in IEEE Transactions on Automation Science and Engineering, vol. 19, no. 3, pp. 2369-2383, July 2022, doi: 10.1109/TASE.2021.3081406.</p>
 
     </body>
 </html>
