@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ASCC Sound Dataset</title>
+        <title>ASCC HomeSoundNet</title>
         <style>
             table, th, td {
             border:1px solid black;
@@ -29,9 +29,9 @@
             <h1>The ASCC Home Environment Sound Dataset</h1>
         </center>
         <h2>1. Introduction</h2>
-        <p>This website introduces the ASCC Home Environment Sound Dataset. We totally collected 36 categories, 31,423 audios, 138,522 seconds. Some audios are collected from Google audioset [1], CHIME-HOME [2], SINS [3] and Eating Sound Collection [4], where the home environment-related audios are selected and processed. We also used web crawler technique to search and download realted audios uploaded by users from all over the wrold from Freesound [5]. Besides, we used a cell phone to record different audios and played them in our smart home environment[6]. The audios were played in different rooms and a laptop was used to record the audios played audio at different distance.</p>
+        <p>This website contains the ASCC HomeSoundNet Dataset, which is a dataset of home event sounds. At this point, this dataset consists of 36 categories of sound events. There are a total of 31,423 audio clips with a total time of 138,522 seconds. The audios clips are collected from our ASCC Smart Home Testbed, and  online existing datasets, including Google Audioset [1], CHIME-HOME [2], SINS [3] and Eating Sound Collection [4]. We also used web crawler technique to search and download related audios uploaded by users from all over the world from Freesound [5]. To collect our own audio data,  a laptop was used to record the audios at different distances and in different rooms.</p>
 
-        <p>The original audios from different sources have different sample rates, durations and channels. We unified them into both 32kHz and 8kHz, 5 seconds, and mono. The sampling rate of 8kHz has less data, which is eaiser for a wearable device to process. For some sources, the durations of those audios are smaller than 5 seconds. Their duration is kept in the original shape. Those audios whose duration is larger than 5 seconds are cut into 5-second segments. After segmenting the audios, we manually verified the audios and removed the audios which have no sound event or unnoticeable sound event.</p>
+        <p>The original audio clips from different sources have different sampling rates, durations and channels. These data are processed and unified into two sampling frequencies: 32kHz and 8kHz with each audio piece having less than 5 seconds.  The sampling rate of 8kHz results in less data, which fits for systems that have less computational resources, such as wearable computing devices.  All the audio clips are manually verified and those with no sound event or unnoticeable sound event are removed.</p>
 
         <h2>2. Audios</h2>
         <p>The dataset is available on <a href= "https://drive.google.com/drive/folders/1ThrF4lY6tkD810Ce4etmMOn125KvZvn6?usp=sharing" >Google Drive</a>. The following table shows the categories and the amount of audios of each category in the dataset. Clike the category name to navigate to the corresponding audios.</p>
